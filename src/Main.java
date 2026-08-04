@@ -1,7 +1,4 @@
-import java.sql.Array;
 import java.util.*;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 
 
 public class Main {
@@ -80,9 +77,6 @@ public class Main {
     }
 
     public static void main(String[] args) {
-
-        for (int values : countWordOccurrences(new String[]{"hello wor","ld hello"}, new String[]{"hello","world","wor"})) {
-            System.out.print(values + " ");
-        }
+        
     }
 }
